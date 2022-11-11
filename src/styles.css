@@ -6,15 +6,19 @@
  *       breadcrumbs with the menu dropdown on mobile screen size.
  */
 
-//import statements
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.App {
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+}
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
